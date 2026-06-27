@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data and cached features (heavy binaries / dataset files)
+data/
+outputs/
+*.pkl
+*.npy
+*.pth
+*.h5
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
